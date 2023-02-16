@@ -6,6 +6,7 @@ import Listas from "@/subpages/Listas";
 import Topo from "@/subpages/Topo";
 import Sobre from "@/subpages/Sobre";
 import Footer from "@/subpages/Footer";
+import Portfolio from "@/subpages/Portfolio";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
           <Topo/>
           <Sobre/>
           <Listas/>
+          <Portfolio/>
           <Footer/>
       </main>
     </>

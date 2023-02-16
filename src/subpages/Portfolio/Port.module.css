@@ -1,0 +1,34 @@
+.alinhamento{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.espacamento{
+    margin: 20px;
+    text-align: center;
+}
+
+.image{
+    border-radius: 8px;
+}
+
+@media (max-width: 1500px) {
+    .alinhamento{
+        max-width: 80%;
+        margin: 0 auto;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .alinhamento{
+        max-width: 100%;
+        margin: 0 auto;
+        align-items: center;
+
+    }
+
+}
