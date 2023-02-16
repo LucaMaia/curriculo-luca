@@ -1,0 +1,14 @@
+.text_sobre_mim{
+    text-align: center;
+    padding: 30px;
+    max-width: 55%;
+    font-size: 18px;
+}
+
+@media (max-width: 970px) {
+    .text_sobre_mim{
+        max-width: 80%;
+    }
+}
+
+

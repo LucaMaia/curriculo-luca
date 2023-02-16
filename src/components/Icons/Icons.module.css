@@ -1,0 +1,10 @@
+.alinhamento{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.espacamento{
+    padding:10px;
+}

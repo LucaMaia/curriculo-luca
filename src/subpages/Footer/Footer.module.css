@@ -1,0 +1,11 @@
+.footer {
+    align-items: center;
+    /*border: 1px solid red;*/
+}
+
+.text_align{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+}

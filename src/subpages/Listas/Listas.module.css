@@ -1,0 +1,30 @@
+.listas{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.title{
+    padding: 20px 0px;
+}
+
+.espaco_lista_experiencia{
+    padding: 20px 0px;
+}
+
+.espaco_lista_aptidoes{
+    padding: 20px 0px;
+}
+
+.lista{
+    font-size: 20px;
+}
+
+@media (max-width: 970px) {
+    .listas{
+       padding: 0px 10px;
+    }
+}
+
+
+
+
