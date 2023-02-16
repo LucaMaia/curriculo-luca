@@ -3,7 +3,7 @@ import {Fade,Flip,Rotate,Zoom,Bounce,Slide,Roll,LightSpeed} from "react-reveal";
 
 export default function Listas(){
     return(
-        <Slide  duration={2000} bottom>
+        <Zoom  duration={2000} bottom left>
             <div className={styles.listas}>
                 <h2 className={styles.title}>
                     Expêriencias
@@ -78,7 +78,7 @@ export default function Listas(){
 
                 </ul>
             </div>
-        </Slide>
+        </Zoom>
 
     )
 }
