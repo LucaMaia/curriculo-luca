@@ -7,7 +7,8 @@
 
 @media (max-width: 970px) {
     .text_sobre_mim{
-        max-width: 80%;
+        max-width: 100%;
+        /*border: 1px solid red;*/
     }
 }
 
