@@ -1,4 +1,5 @@
 import styles from "./Port.module.css"
+import {Fade,Flip,Rotate,Zoom,Bounce,Slide,Roll,LightSpeed} from "react-reveal";
 
 let images = [
     {"title":"Titulo 1","href":"/","src":"/vintage.jpeg"},
@@ -20,11 +21,13 @@ export default function Portfolio(){
 
                 {videos.map((item,index) => {
                     return (
-                        <div className={styles.espacamento}>
-                            <video width="320" height="240" controls>
-                                <source src={item.src} type={item.type}/>
-                            </video>
-                        </div>
+                        <Fade duration={2000} bottom  key={index}>
+                            <div className={styles.espacamento}>
+                                <video width="320" height="240" controls>
+                                    <source src={item.src} type={item.type}/>
+                                </video>
+                            </div>
+                        </Fade>
                     )
                 })}
 
