@@ -6,7 +6,7 @@ export default function Listas(){
         <Zoom  duration={2000} bottom left>
             <div className={styles.listas}>
                 <h2 className={styles.title}>
-                    Expêriencias
+                    Experiências
                 </h2>
 
                 <ul className={styles.espaco_lista_experiencia}>
