@@ -10,3 +10,9 @@
     padding: 10px;
     color: white;
 }
+
+.text_align_p{
+    text-align: center;
+    font-size: 13px;
+    color: white;
+}
