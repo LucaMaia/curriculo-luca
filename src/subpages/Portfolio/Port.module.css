@@ -1,18 +1,23 @@
 .alinhamento{
     display: flex;
     flex-wrap: wrap;
-    max-width: 90%;
-    margin: 10px auto;
+    max-width: 85%;
+    margin: 0 auto;
     justify-content: center;
 }
 
 .espacamento{
-    margin: 20px;
+    margin: 5px;
     text-align: center;
 }
 
 .image{
     border-radius: 8px;
+}
+
+.text{
+    max-width: 60%;
+    margin: 0 auto;
 }
 
 @media (max-width: 1500px) {
@@ -26,9 +31,11 @@
 @media (max-width: 1000px) {
     .alinhamento{
         max-width: 100%;
-        margin: 0 auto;
+        margin: 0px 0px 50px 0px ;
         align-items: center;
-
     }
-
+    .text{
+        max-width: 80%;
+        margin: 0 auto;
+    }
 }

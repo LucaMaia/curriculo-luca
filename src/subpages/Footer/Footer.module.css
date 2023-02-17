@@ -16,3 +16,10 @@
     font-size: 13px;
     color: white;
 }
+
+.text_align_email{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin: 5px;
+}

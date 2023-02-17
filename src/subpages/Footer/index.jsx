@@ -7,6 +7,10 @@ export default function Footer(){
                     <h1 className={styles.text_align}>
                         Acompanhe o meu trabalho
                     </h1>
+
+                    <p className={styles.text_align_email}>
+                        Email: lucama2007@hotmail.com
+                    </p>
                 <p className={styles.text_align_p}>
                     Site desenvolvido em NextJS - por Luca Maia
                 </p>

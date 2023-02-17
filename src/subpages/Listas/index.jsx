@@ -11,10 +11,6 @@ export default function Listas(){
 
                 <ul className={styles.espaco_lista_experiencia}>
                     <li className={styles.lista}>
-                        Atendente em uma rede de açaís (Açaí do Japa). (2019)
-                    </li>
-
-                    <li className={styles.lista}>
                         Menor aprendiz na empresa G4F na areá de RH.  (2020/2021)
                     </li>
 
@@ -43,11 +39,20 @@ export default function Listas(){
                     </li>
 
                     <li className={styles.lista}>
-                        Experiencia em JavaScript , com foco em ReactsJS e NodeJS.
+                        Experiência em JavaScript , com foco em ReactsJS e NodeJS.
                     </li>
 
                     <li className={styles.lista}>
-                        Nivel intermediario em inglês.
+                        Nivel intermediario em SQL.
+                    </li>
+
+                    <li className={styles.lista}>
+                        Experiência com Mysql Worbench, Navicat, Postgres e SQL Server.
+                    </li>
+
+
+                    <li className={styles.lista}>
+                        Nivel intermediário em inglês.
                     </li>
 
                     <li className={styles.lista}>
@@ -55,7 +60,7 @@ export default function Listas(){
                     </li>
 
                     <li className={styles.lista}>
-                        Nivel intermediario em Adobe XD.
+                        Nivel intermediário em Adobe XD.
                     </li>
 
                     <li className={styles.lista}>
