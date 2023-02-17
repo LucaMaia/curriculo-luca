@@ -27,7 +27,7 @@ export default function Portfolio(){
                     return (
                         <Fade duration={2000} bottom  key={index}>
                             <div className={styles.espacamento}>
-                                <video width="340" height="240" controls>
+                                <video width="340" height="240" controls >
                                     <source src={item.src} type={item.type}/>
                                 </video>
                                 <p className={styles.text}>
