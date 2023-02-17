@@ -5,7 +5,6 @@ export default function Listas(){
     return(
         <Zoom  duration={2000} bottom left>
             <Fade duration={3000}>
-                <div className={styles.listas}>
                     <h1 className={styles.title}>
                         Experiências
                     </h1>
@@ -29,7 +28,6 @@ export default function Listas(){
                         </li>
                     </ul>
 
-
                     <h1 className={styles.title}>
                         Aptidões e competências
                     </h1>
@@ -50,7 +48,6 @@ export default function Listas(){
                         <li className={styles.lista}>
                             Experiência com Mysql Worbench, Navicat, Postgres e SQL Server.
                         </li>
-
 
                         <li className={styles.lista}>
                             Nivel intermediário em inglês.
@@ -81,13 +78,9 @@ export default function Listas(){
                         <li className={styles.lista}>
                             Pós graduando em MBA em UX Design e Usabilidade - Infnet.
                         </li>
-
                     </ul>
-                </div>
             </Fade>
-
         </Zoom>
-
     )
 }
 

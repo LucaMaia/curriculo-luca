@@ -1,9 +1,3 @@
-.listas{
-    max-width: 90%;
-    margin: 0 auto;
-    /*border: 1px solid red;*/
-}
-
 .title{
     padding: 20px 0px;
     text-align: center;
@@ -12,10 +6,14 @@
 
 .espaco_lista_experiencia{
     padding: 20px 0px;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .espaco_lista_aptidoes{
     padding: 20px 0px;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .lista{

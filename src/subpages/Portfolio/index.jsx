@@ -12,15 +12,17 @@ let videos = [
     {"src":"Criolo.mp4","type":"video/mp4","text":"Ferramentas utilizadas: Photoshop,After Effects e Premier"},
     {"src":"Salvador.mp4","type":"video/mp4","text":"Ferramentas utilizadas: Photoshop,After Effects e Premier"},
     {"src":"Aula 1.mp4","type":"video/mp4","text":"Tutorial: Alterando domínio na Vercel"},
-    {"src":"Aula 2.mp4","type":"video/mp4","text":"Tutorial: Criando componente com 'react-reavel' e 'react-bootstrap'"},
+    {"src":"Aula 2.mp4","type":"video/mp4","text":"Tutorial: Componente com 'react-reavel' e 'react-bootstrap'"},
 ]
 
 export default function Portfolio(){
     return(
         <>
-           <h1 className={styles.title}>Portfólio</h1>
-            <div className={styles.alinhamento}>
+           <h1 className={styles.title}>
+               Portfólio
+           </h1>
 
+            <div className={styles.alinhamento}>
                 {videos.map((item,index) => {
                     return (
                         <Fade duration={2000} bottom  key={index}>
