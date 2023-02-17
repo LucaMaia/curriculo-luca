@@ -18,9 +18,9 @@ let videos = [
 export default function Portfolio(){
     return(
         <>
-           <h1 className={styles.title}>
+           <h2 className={styles.title}>
                Portfólio
-           </h1>
+           </h2>
 
             <div className={styles.alinhamento}>
                 {videos.map((item,index) => {

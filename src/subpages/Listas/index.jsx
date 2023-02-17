@@ -5,9 +5,9 @@ export default function Listas(){
     return(
         <Zoom  duration={2000} bottom left>
             <Fade duration={3000}>
-                    <h1 className={styles.title}>
+                    <h2 className={styles.title}>
                         Experiências
-                    </h1>
+                    </h2>
 
                     <ul className={styles.espaco_lista_experiencia}>
                         <li className={styles.lista}>
@@ -28,9 +28,9 @@ export default function Listas(){
                         </li>
                     </ul>
 
-                    <h1 className={styles.title}>
+                    <h2 className={styles.title}>
                         Aptidões e competências
-                    </h1>
+                    </h2>
 
                     <ul className={styles.espaco_lista_aptidoes}>
                         <li className={styles.lista}>
@@ -66,9 +66,9 @@ export default function Listas(){
                         </li>
                     </ul>
 
-                    <h1 className={styles.title}>
+                    <h2 className={styles.title}>
                         Formações
-                    </h1>
+                    </h2>
 
                     <ul className={styles.espaco_lista_aptidoes}>
                         <li className={styles.lista}>
